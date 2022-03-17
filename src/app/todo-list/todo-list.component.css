@@ -1,0 +1,85 @@
+.todoCard{
+width: 45vh;
+height: 35vh;
+border-radius: 2px;
+overflow:auto;
+}
+
+.btad{
+  width: 4vh;
+  height: 38px;
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+input{
+width: 37vh;
+height: 32px;
+}
+
+h1{
+margin: 5px;
+font-size: 4vh;
+}
+
+li{
+  list-style: none;
+}
+
+.btlp{
+  font-size: 20px;
+  background: #8c49e8;
+  border: #8c49e8;
+  border-radius: 2px;
+  color:white;
+  width: 56px;
+  height: 34px;
+  margin-left: 15vh ;
+  width: 95px;
+  margin-top: -9px;
+
+}
+
+.list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: flex-start;
+  overflow: auto;
+}
+.lt{
+  background: pink;
+  color:black;
+  border: solid black 1px;
+  height: 38px;
+  margin-top: 10px;
+  margin-left: -38px;
+
+}
+
+.material-icons{
+  font-size: 35px;
+  padding: 0;
+  color:rgb(180, 4, 4);
+  background: pink;
+  float: right;
+
+}
+
+.btlp2{
+  background: white;
+  border-radius: 2px;
+  height: 50px;
+  width: 100%;
+
+
+}
+
+span {
+  display: flex;
+  padding: 16px;
+}
+
+

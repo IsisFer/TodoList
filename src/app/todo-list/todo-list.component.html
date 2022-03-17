@@ -1,0 +1,42 @@
+<mat-card class="todoCard">
+
+  <mat-card-content>
+    <div class="todo">
+      <h1>Todo App</h1>
+
+      <input type="text" [(ngModel)]="Afazeres" #ptt>
+
+        <button ((click))="Adicionar()" class="btad" appMinhadiretiva (click)="SalvarDados(ptt.value)">+</button>
+
+
+        <div class="list">
+          <ul>
+
+           <li class="lt" *ngFor="let Elemento of Elementos"
+             let Afazeres = index>  {{ Elemento }}
+             <button (click)="Retirar(Afazeres)" class="material-icons">delete
+             </button>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </mat-card-content>
+
+
+</mat-card>
+
+<div class="btlp2">
+
+  <span>  <b> You have {{ Elementos.length }} pending tasks </b> <button type="reset" (click)="LimparTudo()" class="btlp">Clear All</button>
+
+  </span>
+
+
+</div>
+
+
+
+
+
+
+
